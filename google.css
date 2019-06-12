@@ -3,17 +3,16 @@ a {}
 
 #id {}
 
+.class {}
+
+- top border?
+
+border-style: top right bottom left
+background-color:
+
+
 */
 
-/*
-#panel-header
-#login-button
-#panel-center
-#panel-footer-country
-#panel-footer
-#panel-footer-left
-#panel-footer-right
-*/
 
 /* horizontal navigation bar */
 
@@ -24,11 +23,11 @@ li {
 
 /* my code */
 
-#panel-right {
+.float-right {
     float: right; 
 }
 
-#panel-left {
+.float-left {
     float: left;
 }
 
@@ -36,5 +35,10 @@ li {
     position: relative;
     left: 25%;
     top: 25%; /*not working like i want */
+    border: 25%;
 
+}
+.panel-footer {
+    border-top: 2px solid;
+    background-color: rgb(238, 211, 211);
 }
