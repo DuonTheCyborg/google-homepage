@@ -18,10 +18,26 @@ background-color:
 
 li {
     display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* button */
+
+#login-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
   }
 
-
-/* my code */
+/* --------------------------- my code */
 
 .float-right {
     float: right; 
@@ -42,3 +58,14 @@ li {
     border-top: 2px solid;
     background-color: rgb(238, 211, 211);
 }
+.panel-footer /*a*/ {
+    border-top: 2px solid;
+    background-color: rgb(238, 211, 211);
+}
+
+/*
+ ul {
+    background-color: #dddddd;
+  }
+*/
+
