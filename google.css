@@ -24,6 +24,17 @@ li {
 
 /* my code */
 
-#panel-header {
-    align-items: right;
+#panel-right {
+    float: right; 
+}
+
+#panel-left {
+    float: left;
+}
+
+#panel-center {
+    position: relative;
+    left: 25%;
+    top: 25%; /*not working like i want */
+
 }
