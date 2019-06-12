@@ -4,37 +4,49 @@
 <head>
     <title>Google</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="google.css">
 </head>
 
 <body>
-    
-    <a href="">Gmail</a>
-    <a href="">Imagens</a>
-    <a href="">PH dial</a>
-    <a href="">Fazer login</a><br>
-    <img src="googlelogo_color_272x92dp.png" alt="Google logo">
-    
-    <br>
-        <form action="" method="get">
-            <input type="text" name="">PH keyboard and PH mic
-            <input type="submit" value="Pesquisa Google">
-            <input type="submit" value="Estou com sorte">
-        </form>
+    <div id="panel-header">
+        <ul>
+            <li><a href="">Gmail</a></li>
+            <li><a href="">Images</a></li>
+            <li><a href="">PH dial</a></li>
+            <li><a id="login-button" href="">Login</a></li>
+        </ul>
+    </div>
+    <div id="panel-center">
+        <img src="googlelogo_color_272x92dp.png" alt="Google logo">
+        <br> <!-- make the form stay under -->
+            <form action="" method="get">
+                <input type="text" value="PH keyboard and PH mic">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+            </form>
+    </div>
 
     <br>
-    Brazil
-    <br>
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-    <div>
-        <a href="">Publicidade</a>
-        <a href="">Negócios</a>
-        <a href="">Sobre</a><a href="">Gmail</a>
-        <a href="">Como funciona a Pesquisa</a>
+    <div id="panel-footer-country">
+        Brazil
     </div>
-    <div>
-        <a href="">Privacidade</a>
-        <a href="">Termos</a>
-        <a href="">Configurações</a>
+    <br>
+
+    <div id="panel-footer">
+        
+        <ul>
+            <div id="panel-footer-left">
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">How Search Works</a></li>
+            </div>
+            <div id="panel-footer-right">
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Settings</a></li>
+            </div>
+        </ul>
     </div>
 </body>
 

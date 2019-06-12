@@ -1,0 +1,29 @@
+/* 
+a {}
+
+#id {}
+
+*/
+
+/*
+#panel-header
+#login-button
+#panel-center
+#panel-footer-country
+#panel-footer
+#panel-footer-left
+#panel-footer-right
+*/
+
+/* horizontal navigation bar */
+
+li {
+    display: inline;
+  }
+
+
+/* my code */
+
+#panel-header {
+    align-items: right;
+}
