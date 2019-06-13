@@ -5,17 +5,13 @@ a {}
 
 .class {}
 
-- top border?
-
-border-style: top right bottom left
+{
+    border-style: top right bottom left
 background-color:
-
-
+}
 */
 
-
 /* horizontal navigation bar */
-
 li {
     display: inline;
 }
@@ -25,47 +21,34 @@ ul {
     padding: 0;
 }
 /* button */
-
 #login-button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4484f0; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none; /* take out the underline of the link */
     display: inline-block;
     font-size: 16px;
+    font: bold;
   }
-
 /* --------------------------- my code */
-
+.clearfix {
+    overflow: auto;
+  }
 .float-right {
     float: right; 
 }
-
 .float-left {
     float: left;
 }
-
-#panel-center {
-    position: relative;
-    left: 25%;
-    top: 25%; /*not working like i want */
+#panel-center { /* class or id? */
+    position: absolute;
+    left: 50%;
+    top: 50%; /*not working like i want */
     border: 25%;
-
 }
-.panel-footer {
-    border-top: 2px solid;
-    background-color: rgb(238, 211, 211);
+.panel-footer { /* set width pls */
+    border-top: 1px solid rgb(228, 228, 228);
+    background-color:rgb(242, 242, 242);
 }
-.panel-footer /*a*/ {
-    border-top: 2px solid;
-    background-color: rgb(238, 211, 211);
-}
-
-/*
- ul {
-    background-color: #dddddd;
-  }
-*/
-
